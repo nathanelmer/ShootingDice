@@ -14,7 +14,10 @@ namespace ShootingDice
             Player player2 = new Player();
             player2.Name = "Sue";
 
-            player2.Play(player1);
+            SmackTalkingPlayer nathan = new SmackTalkingPlayer();
+            nathan.Name = "Nathan";
+
+            player2.Play(nathan);
 
             Console.WriteLine("-------------------");
 
