@@ -47,6 +47,27 @@ namespace ShootingDice
 
             Console.WriteLine("-------------------");
 
+            SoreLoserPlayer bryce = new SoreLoserPlayer();
+            bryce.Name = "Bryce";
+
+            bryce.Play(player1);
+
+            Console.WriteLine("-------------------");
+
+            UpperHalfPlayer natedog = new UpperHalfPlayer();
+            natedog.Name = "Natedog";
+
+            natedog.Play(player1);
+
+            Console.WriteLine("-------------------");
+
+            SoreLoserUpperHalfPlayer joe = new SoreLoserUpperHalfPlayer();
+            joe.Name = "Joe";
+
+            joe.Play(player1);
+
+            Console.WriteLine("-------------------");
+
 
             Player player3 = new Player();
             player3.Name = "Wilma";
