@@ -14,10 +14,29 @@ namespace ShootingDice
             Player player2 = new Player();
             player2.Name = "Sue";
 
+
+            player2.Play(player1);
+
+            Console.WriteLine("-------------------");
+
             SmackTalkingPlayer nathan = new SmackTalkingPlayer();
             nathan.Name = "Nathan";
 
-            player2.Play(nathan);
+            player1.Play(nathan);
+
+            Console.WriteLine("-------------------");
+
+            OneHigherPlayer jury = new OneHigherPlayer();
+            jury.Name = "Jury";
+
+            jury.Play(player1);
+
+            Console.WriteLine("-------------------");
+
+            HumanPlayer fred = new HumanPlayer();
+            fred.Name = "Fred";
+
+            fred.Play(player1);
 
             Console.WriteLine("-------------------");
 
