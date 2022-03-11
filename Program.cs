@@ -40,6 +40,14 @@ namespace ShootingDice
 
             Console.WriteLine("-------------------");
 
+            CreativeSmackTalkingPlayer nate = new CreativeSmackTalkingPlayer();
+            nate.Name = "Nate";
+
+            nate.Play(player1);
+
+            Console.WriteLine("-------------------");
+
+
             Player player3 = new Player();
             player3.Name = "Wilma";
 
